@@ -1,0 +1,95 @@
+.projects {
+    width: 120%;
+    margin: auto;
+    padding: 20px;
+    background-color: #ccf1fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .projects h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .search-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    flex: 1;
+    width: 20%;
+    margin: 10px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 10px;
+  }
+  
+  .form-buttons button {
+    margin-left: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .form-buttons button[type="reset"] {
+    background-color: #f2fc6d;
+    color: rgb(5, 5, 5);
+  }
+  
+  .form-buttons button[type="submit"] {
+    background-color: #4caf50;
+    color: rgb(5, 5, 5);
+  }
+  
+  .add-button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .records-found {
+    margin: 10px 0;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px
+  }
+ 
+ 

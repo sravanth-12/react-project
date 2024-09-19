@@ -1,0 +1,165 @@
+.oxd-topbar-body-nav {
+    display: flex;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 0.5rem 1rem;
+  }
+  
+  .oxd-topbar-body-nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .oxd-topbar-body-nav-tab {
+    position: relative;
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+  
+  .oxd-topbar-body-nav-tab-item {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0;
+    font-weight: 500;
+  }
+  
+  .oxd-topbar-body-nav-tab-item .oxd-icon {
+    margin-left: 0.5rem;
+  }
+  
+  .oxd-topbar-body-nav-tab.--active .oxd-topbar-body-nav-tab-item {
+    color: #007bff;
+  }
+  
+  .oxd-dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    border: 0px ;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding: 0.5rem 0;
+  }
+  
+  .oxd-dropdown-menu li {
+    list-style: none;
+  }
+  
+  .oxd-topbar-body-nav-tab-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: #333;
+    white-space: nowrap;
+    border-radius: 20px;
+    
+  }
+  
+  .oxd-topbar-body-nav-tab-link:hover {
+    background-color: #71b5f8;
+   
+  }
+  
+  .oxd-topbar-body-nav-slot {
+    margin-left: auto;
+  }
+  
+  .oxd-icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+  }
+  
+  .oxd-icon-button .oxd-icon {
+    font-size: 1.25rem;
+    color: #333;
+  }
+  
+  .timesheet-content {
+    padding: 1rem;
+  }
+  
+  .timesheet-period-picker {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    /* //margin-right: 60%; */
+  }
+  
+  .timesheet-period-title {
+    margin-right: 1rem;
+    font-weight: 500;
+    margin-right: 60%;
+  }
+  
+  .icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+  }
+  
+  .icon-button .bi-chevron-left,
+  .icon-button .bi-chevron-right {
+    font-size: 1.25rem;
+  }
+  
+  .date-input-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .date-input {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  .oxd-date-input-icon {
+    cursor: pointer;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: center;
+  }
+  
+  .actions-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .actions-table th,
+  .actions-table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: center;
+  }
+  
+  .edit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,91 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+/* Side bar adjustment for My info modules */
+.sidebar1 {
+  width: 200px;
+  background-color: #ffffff;
+  /* padding-top: 50px; */
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.5s all;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 387px; /* Adjust this to the desired position from the left */
+  
+}
+
+.sidebar1 a {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #f1f1f104;
+  color: #aaaa75;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 18px;
+  font-weight: bolder;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.sidebar1 a.active {
+  background-color: #fcfcfc;
+  transform: translateY(0);
+}
+
+.content {
+  flex-grow: 1;
+  padding-bottom: -10px;
+  margin-left: 260px; /* Adjust this to account for the sidebar width and left margin */
+  display:flex;
+  flex-direction: column;
+}
+
+.content-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px; /* Add padding for content spacing */
+}
+
+/* Nav button styles */
+.nav-button {
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #118051;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #2e6e64;
+}
+
+.nav-button:active, .active .nav-button {
+  background-color: #2e6e64;
+}
+
+.nav-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #2e6e64;
+}

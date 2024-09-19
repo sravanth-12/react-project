@@ -1,0 +1,74 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+  }
+  
+  /* Container styling */
+  .attendance-configuration-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #d5f6f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    /* box-shadow: 0 4px 8px rgba(247, 222, 222, 0.1); */
+  }
+  
+  /* Header styling */
+  .attendance-configuration-container h2 {
+    text-align: center;
+    color: #60cef0;
+  }
+  
+  /* Form layout */
+  .configuration-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Form group styling */
+  .form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    width: 80%;
+  }
+  
+  .form-group label {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .large-checkbox {
+    width: 20px;
+    height: 20px;
+    transform: scale(1.5);
+    margin-left: 10px;
+  }
+  
+  .save-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: center;
+  }
+  
+  .save-button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,18 @@
+.detailed-report {
+    padding: 20px;
+  }
+  
+  .detailed-report h2 {
+    margin-bottom: 10px;
+  }
+  
+  .detailed-report p {
+    margin-bottom: 5px;
+  }
+  
+  .download-link {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+  }
+  

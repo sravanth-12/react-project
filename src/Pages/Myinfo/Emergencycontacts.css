@@ -1,0 +1,115 @@
+/* Emergencycontacts.css */
+
+/* Container for the entire form */
+.form-container {
+  /* width: 80%; 
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc; */
+  background-color: #f9f9f9; 
+
+  flex: 1;
+  padding: 20px;
+  padding-top: 120px;
+}
+
+/* Success message popup */
+.success-popup {
+  color: green;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Form row container */
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Label for form fields */
+.form-row label, .form-field label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Button for adding new contacts and attachments */
+.button {
+  background-color: #1f4d92;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Container for individual form fields */
+.form-field {
+  margin-bottom: 10px;
+}
+
+/* Input fields */
+.form-field input[type="text"], .form-field input[type="number"], .form-field input[type="file"], .form-field textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Error message styling */
+.form-field p {
+  margin: 5px 0 0;
+  color: red;
+}
+
+/* Save and Cancel buttons */
+.save-button, .button-container .button {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Styling for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* For empty state message in the table */
+table tbody tr td {
+  text-align: center;
+  color: #999;
+}
+
+/* Container for the attachment form */
+.attachment-form {
+  margin-top: 20px;
+}
+
+.attachment-form textarea {
+  height: 100px;
+}
+
+.attachment-form .button {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}

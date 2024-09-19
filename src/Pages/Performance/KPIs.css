@@ -1,0 +1,154 @@
+/* ConfigureKPIs.css */
+
+.configure-kpis {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    width: 50%;
+    margin-left: 30%;
+    
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff7800;
+    padding: 10px;
+    color: white;
+  }
+  
+  .breadcrumbs {
+    font-size: 20px;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-pic {
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .profile-id {
+    font-size: 16px;
+  }
+  
+  .tabs {
+    display: flex;
+    background-color: #ff7800;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .tab {
+    background-color: #ff7800;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* .tab.active {
+    background-color: #ff5000;
+  }
+   */
+  .search-section {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .key-performance-indicators {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-box {
+    margin-bottom: 20px;
+  }
+  
+  .search-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .search-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .search-item label {
+    margin-bottom: 5px;
+  }
+  
+  .search-item input,
+  .search-item select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .reset-button,
+  .search-button {
+    background-color: #33c233;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .add-button {
+    background-color: #33c233;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .record {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  }
+  
+  .record-header {
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .edit-button,
+  .delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  

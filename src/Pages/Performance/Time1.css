@@ -1,0 +1,62 @@
+/* Time.css */
+ 
+.oxd-topbar-body-nav {
+  background-color: #f8f9fa;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ 
+.oxd-topbar-body-nav-tab {
+  position: relative;
+  display: inline-block;
+  margin-right: 15px;
+}
+ 
+.oxd-topbar-body-nav-tab-item {
+  cursor: pointer;
+}
+ 
+.oxd-dropdown-menu {
+  display: block;
+  position: absolute;
+  background: white;
+  border: 1px solid #ddd;
+  padding: 10px;
+  list-style-type: none;
+  margin: 0;
+  top: 100%;
+  left: 0;
+}
+ 
+.oxd-dropdown-menu a {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+}
+ 
+.oxd-dropdown-menu a:hover {
+  background-color: #f0f0f0;
+}
+ 
+.oxd-topbar-body-nav-slot {
+  display: flex;
+  align-items: center;
+}
+ 
+.oxd-icon-button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+ 
+.oxd-icon {
+  font-size: 1.5em;
+}
+ 
+.oxd-icon.bi-chevron-down {
+  margin-left: 5px;
+}
+ 
+ 

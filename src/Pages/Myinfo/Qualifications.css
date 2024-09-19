@@ -1,0 +1,143 @@
+
+.form-container {
+  flex: 1;
+  padding: 20px;
+  padding-top: 120px;
+  background-color: #f9f9f9; 
+}
+ 
+.subheader {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+ 
+.form {
+  border: 1px solid #e1e1e1;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+.form.active{
+  display: none;
+}
+ 
+.formGroup {
+  display: flex;
+  /*flex-wrap: wrap;*/
+  gap: 10px;
+  margin-bottom: 10px;
+}
+ 
+.label {
+  flex: 1 1 10%;
+}
+ 
+.input {
+  /*flex: 1 1 48%;*/
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: medium;
+}
+ 
+textarea.input {
+  /*flex: 1 1 100%;*/
+  height: 100px;
+  width: 80%;
+}
+ 
+.formActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  
+}
+ 
+.saveButton, .cancelButton, .addButton {
+  padding: 10px 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+ 
+.saveButton {
+  background-color: #1a73e8;
+  color: white;
+  width: 100px;
+  height: 40px;
+}
+ 
+.cancelButton {
+  background-color: #f1f1f1;
+  color: #333;
+  width: 100px;
+  height: 40px;
+}
+ 
+.addButton {
+  background-color: #f1f1f1;
+  color: #333;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+  margin-right: 70%;
+  width: 150px;
+  height: 50px;
+}
+ 
+.sectionFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #e1e1e1;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+.submit{
+  width: 150px;
+  height: 50px;
+  margin-left: 80%;
+}
+ 
+ 
+ 
+ 
+ 
+.languageTableContainer {
+  margin: 10px;
+}
+ 
+.languageTable {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #a2d6f5;
+}
+ 
+.languageTable th,
+.languageTable td {
+  padding: 20px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  color: #333;
+}
+ 
+.languageTable th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+ 
+.languageTable th.languageHeader {
+  display: flex;
+  align-items: center;
+}
+ 
+.languageTable th.languageHeader .checkbox {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+ 
+.languageTable tbody tr:hover {
+  background-color: #f1f1f1;
+}

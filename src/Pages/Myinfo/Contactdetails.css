@@ -1,0 +1,108 @@
+/* Other existing styles */
+
+.form-container {
+  flex: 1;
+  padding: 20px;
+  padding-top: 120px;
+}
+
+.form-container h3 {
+  margin-bottom: 20px;
+  color: #333;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  color: #0056b3;
+  
+}
+
+.form-row label {
+  color: #333;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.form-row input,
+.form-row select {
+  padding: 8px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  flex: 2;
+  margin-right: 20px;
+}
+
+.form-row input:last-child,
+.form-row select:last-child {
+  margin-right: 0;
+}
+
+.form-row .gender {
+  display: flex;
+  align-items: center;
+  flex: 2;
+}
+
+.form-row .gender .radio-group {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.form-row .gender .radio-group label {
+  margin-left: 5px;
+}
+
+.form-row .add-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+.form-row .add-button:hover {
+  background-color: #0056b3;
+}
+
+.form-row table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.form-row table,
+.form-row table th,
+.form-row table td {
+  border: 1px solid #dee2e6;
+}
+
+.form-row table th,
+.form-row table td {
+  padding: 8px;
+  text-align: left;
+}
+
+.form-row table td[colspan='7'] {
+  text-align: center;
+  color: #90a33e;
+}
+
+.form-row .save-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-row .save-button:hover {
+  background-color: #0056b3;
+}

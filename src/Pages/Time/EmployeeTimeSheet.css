@@ -1,0 +1,150 @@
+.app {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .select-employee,
+  .timesheets-pending-action {
+    margin-top: 20px;
+    width: 70%;
+    margin-left: 22%;
+    background-color: rgb(197, 234, 248);
+    border-radius: 10px;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+  }
+  
+  .btn:hover {
+    opacity: 0.8;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Topbar Styles */
+  .oxd-topbar-body-nav {
+    display: flex;
+    align-items: center;
+    /* background-color: #333; */
+    padding: 10px;
+    color: rgb(12, 12, 12);
+  }
+  
+  .oxd-topbar-body-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .oxd-topbar-body-nav-tab {
+    position: relative;
+  }
+  
+  .oxd-topbar-body-nav-tab-item {
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .oxd-topbar-body-nav-tab-item:hover {
+    background-color: #a08bfc;
+    width: 120px;
+    font-size: large;
+    border-radius: 20px;
+  }
+  
+  .oxd-topbar-body-nav-tab-item i {
+    margin-left: 5px;
+  }
+  
+  .oxd-topbar-body-nav-tab.--parent.--active .oxd-topbar-body-nav-tab-item {
+    background-color: #555;
+  }
+  
+  .oxd-dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    color: black;
+    min-width: 200px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 1000;
+  }
+  
+  .oxd-dropdown-menu a {
+    padding: 10px 20px;
+    display: block;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .oxd-dropdown-menu a:hover {
+    background-color: #82f8b7;
+  }
+  
+  .oxd-topbar-body-nav-slot {
+    margin-left: auto;
+  }
+  
+  .oxd-icon-button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .oxd-icon-button i {
+    font-size: 1.5em;
+  }
+  

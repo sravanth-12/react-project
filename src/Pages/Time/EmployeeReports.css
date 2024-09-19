@@ -1,0 +1,55 @@
+.employee-report {
+    background-color: #d3f3f7;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .employee-report h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .date-range {
+    display: flex;
+    align-items: center;
+  }
+  
+  .date-range input {
+    flex: 1;
+    margin: 0 5px;
+  }
+  
+  .date-range span {
+    margin: 0 5px;
+  }
+  
+  .view-button {
+    padding: 10px 20px;
+    background-color: #a8d8a8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .view-button:hover {
+    background-color: #92c292;
+  }
+  

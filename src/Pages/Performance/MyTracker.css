@@ -1,0 +1,89 @@
+/* MyTrackers.css */
+
+.my-trackers {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  width: 50%;
+  margin-left: 30%;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #ff7f50;
+  color: white;
+  border-radius: 5px 5px 0 0;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.header-btn {
+  background: none;
+  border: none;
+  color: whitesmoke;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.header-btn.active {
+  background-color: #f76300;
+  border-radius: 5px;
+}
+
+.user-info, button {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  width: 100px;
+}
+
+.user-info span {
+  margin-left: 8px;
+}
+
+.content {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 0 0 5px 5px;
+}
+
+.tracker-header {
+  margin-bottom: 20px;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+.result p {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+  padding: 10px;
+}
+
+tbody td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}

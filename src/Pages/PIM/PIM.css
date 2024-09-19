@@ -1,0 +1,264 @@
+.app-container {
+  display: flex;
+}
+
+.pim-page {
+  margin-left: 370px; /* Same width as the sidebar */
+  padding: 20px;
+  background-color: #b9dad4;
+  min-height: 100vh;
+}
+
+.pim-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  /* background-color: #2d3aaf; */
+}
+
+.pim-header-button {
+  background-color: #45751d;
+  border: 1px solid #000000;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.pim-header-button:hover {
+  background-color: #e2e6ea;
+}
+
+.employee-information {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.employee-information h2 {
+  margin-bottom: 20px;
+}
+
+.employee-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.reset-button,
+.search-button {
+  background-color: #28a745;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.reset-button {
+  background-color: #6c757d;
+}
+
+.reset-button:hover,
+.search-button:hover {
+  opacity: 0.8;
+}
+
+.employee-list {
+  margin-top: 20px;
+}
+
+.employee-list h3 {
+  margin-bottom: 10px;
+}
+
+.employee-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.employee-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.add-employee-form {
+  max-width: 600px; /* Example: Adjust maximum width as needed */
+}
+
+.profile-picture-container {
+  margin-bottom: 20px;
+}
+
+/*.profile-picture {
+ /* width: 150px; /* Example: Set width of the profile picture container */
+  /*height: 150px; /* Example: Set height of the profile picture container */
+  /*border-radius: 50%; /* Example: Make it round */
+  /*overflow: hidden; /* Ensure image stays within the container */
+/*}*/
+
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.placeholder-picture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.uploaded-picture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+.add-employee-form {
+  max-width: 600px; /* Example: Adjust maximum width as needed */
+}
+
+.profile-picture-container {
+  margin-bottom: 20px;
+}
+
+.profile-picture-crop {
+  width: 100%; /* Ensure the crop area takes full width */
+  height: 300px; /* Example: Set the height of the crop area */
+  overflow: hidden; /* Hide overflow outside the crop area */
+}
+
+.cropped-preview {
+  margin-top: 20px;
+}
+
+.cropped-preview img {
+  max-width: 100%; /* Ensure the cropped preview image fits within its container */
+  height: auto; /* Maintain aspect ratio */
+}
+.pim-page {
+  padding: 20px;
+}
+
+.pim-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.header-button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.header-button:hover {
+  background-color: #0056b3;
+}
+
+.employee-information, .add-employee-form, .employee-list {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.name-fields {
+  display: flex;
+  gap: 10px;
+}
+
+.name-fields input {
+  flex: 1;
+}
+
+.profile-picture-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.add-photo-button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.add-photo-button:hover {
+  background-color: #0056b3;
+}
+
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.save-btn, .cancel-btn {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.save-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.save-btn:hover {
+  background-color: #218838;
+}
+
+.cancel-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.cancel-btn:hover {
+  background-color: #c82333;
+}

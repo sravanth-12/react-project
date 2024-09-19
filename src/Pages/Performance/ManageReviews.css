@@ -1,0 +1,109 @@
+.manage-reviews-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    width: 50%;
+    margin-left: 30%;
+  }
+  
+  .header h2 {
+    color: #fff;
+    background-color: #f87400;
+    padding: 10px;
+  }
+  
+  .navigation {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  
+  .nav-button {
+    background-color: #f4f4f4;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .nav-button.active {
+    background-color: #f87400;
+    color: #fff;
+  }
+  
+  .form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+  }
+  
+  .form-group label {
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .reset-button,
+  .search-button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .reset-button {
+    background-color: #f4f4f4;
+  }
+  
+  .search-button {
+    background-color: #7dd329;
+    color: #fff;
+  }
+  
+  .add-button-container {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 0;
+  }
+  
+  .add-button {
+    background-color: #3dca5c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .table-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
